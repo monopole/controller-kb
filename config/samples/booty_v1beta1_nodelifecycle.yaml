@@ -1,0 +1,8 @@
+apiVersion: booty.kc2.com/v1beta1
+kind: NodeLifeCycle
+metadata:
+  labels:
+    controller-tools.k8s.io: "1.0"
+  name: nodelifecycle-sample
+spec:
+  state: reboot-desired
