@@ -1,4 +1,4 @@
-apiVersion: booty.kc2.com/v1beta1
+apiVersion: booty.controller-kb.com/v1beta1
 kind: NodeLifeCycle
 metadata:
   labels:

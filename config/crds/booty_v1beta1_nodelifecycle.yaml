@@ -4,9 +4,9 @@ metadata:
   creationTimestamp: null
   labels:
     controller-tools.k8s.io: "1.0"
-  name: nodelifecycles.booty.kc2.com
+  name: nodelifecycles.booty.controller-kb.com
 spec:
-  group: booty.kc2.com
+  group: booty.controller-kb.com
   names:
     kind: NodeLifeCycle
     plural: nodelifecycles

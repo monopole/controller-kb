@@ -17,10 +17,11 @@ package nodelifecycle
 
 import (
 	"context"
-	bootyv1beta1 "github.com/monopole/kc2/pkg/apis/booty/v1beta1"
+	"log"
+
+	bootyv1beta1 "github.com/monopole/controller-kb/pkg/apis/booty/v1beta1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
-	"log"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 	"sigs.k8s.io/controller-runtime/pkg/handler"
@@ -85,7 +86,7 @@ type ReconcileNodeLifeCycle struct {
 // TODO(user): Modify this Reconcile function to implement your Controller logic.  The scaffolding writes
 // a Deployment as an example
 // Automatically generate RBAC rules to allow the Controller to read and write Deployments
-// +kubebuilder:rbac:groups=booty.kc2.com,resources=nodelifecycles,verbs=get;list;watch;create;update;patch;delete
+// +kubebuilder:rbac:groups=booty.controller-kb.com,resources=nodelifecycles,verbs=get;list;watch;create;update;patch;delete
 func (r *ReconcileNodeLifeCycle) Reconcile(request reconcile.Request) (reconcile.Result, error) {
 	// Fetch the NodeLifeCycle nodeLifeCycle
 	log.Printf("Entering reconcile.")

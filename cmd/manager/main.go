@@ -18,8 +18,8 @@ package main
 import (
 	"log"
 
-	"github.com/monopole/kc2/pkg/apis"
-	"github.com/monopole/kc2/pkg/controller"
+	"github.com/monopole/controller-kb/pkg/apis"
+	"github.com/monopole/controller-kb/pkg/controller"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"
 	"sigs.k8s.io/controller-runtime/pkg/manager"

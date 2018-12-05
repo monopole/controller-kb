@@ -16,7 +16,7 @@ limitations under the License.
 package apis
 
 import (
-	"github.com/monopole/kc2/pkg/apis/booty/v1beta1"
+	"github.com/monopole/controller-kb/pkg/apis/booty/v1beta1"
 )
 
 func init() {

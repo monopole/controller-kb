@@ -25,8 +25,8 @@ import (
 )
 
 func TestStorageNodeLifeCycle(t *testing.T) {
-	key := types.NamespacedName{Name: "foo", Namespace: "default"}
-	created := &NodeLifeCycle{ObjectMeta: metav1.ObjectMeta{Name: "foo", Namespace: "default"}}
+	key := types.NamespacedName{Name: "foo", Namespace: ""}
+	created := &NodeLifeCycle{ObjectMeta: metav1.ObjectMeta{Name: "foo", Namespace: ""}}
 	g := gomega.NewGomegaWithT(t)
 
 	// Test Create

@@ -16,7 +16,7 @@ limitations under the License.
 package controller
 
 import (
-	"github.com/monopole/kc2/pkg/controller/nodelifecycle"
+	"github.com/monopole/controller-kb/pkg/controller/nodelifecycle"
 )
 
 func init() {

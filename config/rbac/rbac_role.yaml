@@ -17,7 +17,7 @@ rules:
   - patch
   - delete
 - apiGroups:
-  - booty.kc2.com
+  - booty.controller-kb.com
   resources:
   - nodelifecycles
   verbs:

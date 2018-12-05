@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	bootyv1beta1 "github.com/monopole/kc2/pkg/apis/booty/v1beta1"
+	bootyv1beta1 "github.com/monopole/controller-kb/pkg/apis/booty/v1beta1"
 	"github.com/onsi/gomega"
 	"golang.org/x/net/context"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
